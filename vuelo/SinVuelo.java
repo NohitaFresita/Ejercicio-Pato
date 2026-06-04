@@ -1,3 +1,4 @@
+package vuelo;
 public class SinVuelo implements ComportamientoDeVuelo {
 
     @Override

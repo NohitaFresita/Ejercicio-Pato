@@ -1,3 +1,8 @@
+package patos;
+
+import graznido.ComportamientoDeGraznido;
+import vuelo.ComportamientoDeVuelo;
+
 public abstract class Pato {
 
     private ComportamientoDeVuelo comportamientoDeVuelo;
@@ -7,21 +12,21 @@ public abstract class Pato {
         System.out.println("El pato está nadando.");
     }
 
-    public void realizarVuelo() {
+    public void emprenderVuelo() {
         comportamientoDeVuelo.volar();
     }
 
-    public void realizarGraznido() {
-        comportamientoDeGraznido.graznar();
+    public void hacerQuack() {
+        comportamientoDeGraznido.quack();
     }
 
-    public void setComportamientoDeVuelo(
+    protected void establecerComportamientoDeVuelo(
             ComportamientoDeVuelo comportamientoDeVuelo) {
 
         this.comportamientoDeVuelo = comportamientoDeVuelo;
     }
 
-    public void setComportamientoDeGraznido(
+    protected void establecerComportamientoDeGraznido(
             ComportamientoDeGraznido comportamientoDeGraznido) {
 
         this.comportamientoDeGraznido = comportamientoDeGraznido;

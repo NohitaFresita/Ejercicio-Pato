@@ -1,3 +1,10 @@
+package principal;
+
+import patos.Pato;
+import patos.PatoDeHule;
+import patos.PatoMallard;
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,8 +13,8 @@ public class Main {
 
         pato1.dibujar();
         pato1.nadar();
-        pato1.realizarVuelo();
-        pato1.realizarGraznido();
+        pato1.emprenderVuelo();
+        pato1.hacerQuack();
 
         System.out.println();
 
@@ -15,7 +22,7 @@ public class Main {
 
         pato2.dibujar();
         pato2.nadar();
-        pato2.realizarVuelo();
-        pato2.realizarGraznido();
+        pato2.emprenderVuelo();
+        pato2.hacerQuack();
     }
 }

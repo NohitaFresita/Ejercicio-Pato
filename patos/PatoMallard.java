@@ -1,9 +1,14 @@
+package patos;
+
+import graznido.Quack;
+import vuelo.VolarConAlas;
+
 public class PatoMallard extends Pato {
 
     public PatoMallard() {
 
-        setComportamientoDeVuelo(new VolarConAlas());
-        setComportamientoDeGraznido(new Quack());
+        establecerComportamientoDeVuelo(new VolarConAlas());
+        establecerComportamientoDeGraznido(new Quack());
     }
 
     @Override

@@ -1,9 +1,13 @@
+package patos;
+import graznido.Chillido;
+import vuelo.SinVuelo;
+
 public class PatoDeHule extends Pato {
 
     public PatoDeHule() {
 
-        setComportamientoDeVuelo(new SinVuelo());
-        setComportamientoDeGraznido(new Chillido());
+        establecerComportamientoDeVuelo(new SinVuelo());
+        establecerComportamientoDeGraznido(new Chillido());
     }
 
     @Override

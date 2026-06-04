@@ -1,7 +1,9 @@
+package graznido;
+
 public class Chillido implements ComportamientoDeGraznido {
 
     @Override
-    public void graznar() {
+    public void quack() {
         System.out.println("Piiii Piiii!");
     }
 }

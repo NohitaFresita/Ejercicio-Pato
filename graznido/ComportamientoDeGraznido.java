@@ -1,3 +1,5 @@
+package graznido;
+
 public interface ComportamientoDeGraznido {
-    void graznar();
+    void quack();
 }
