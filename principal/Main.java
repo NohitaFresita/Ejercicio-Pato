@@ -3,6 +3,7 @@ package principal;
 import patos.Pato;
 import patos.PatoDeHule;
 import patos.PatoMallard;
+import patos.PatoVendedorDeRosas;
 
 
 public class Main {
@@ -24,5 +25,15 @@ public class Main {
         pato2.nadar();
         pato2.emprenderVuelo();
         pato2.hacerQuack();
+
+
+        Pato pato = new PatoVendedorDeRosas();
+
+        pato.dibujar();
+        pato.nadar();
+        pato.emprenderVuelo();
+        pato.hacerQuack();
+    
+
     }
 }
